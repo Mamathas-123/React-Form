@@ -30,8 +30,8 @@ padding-right: 10px;
 
     .formElement input[type="text"]  {display: block;
     }
-    /* .formElement button{display:block ;
-       } */
+    .formElement button{display:block ;
+       }
 }
 
 @media only screen and (min-width: 768px) {
@@ -41,6 +41,8 @@ padding-right: 10px;
     }
 
     .formElement input[type="text"]  {display:  initial;
+    }
+    .formElement button{display:initial ;
     }
 }
 
@@ -52,5 +54,7 @@ padding-right: 10px;
     }
 
     .formElement input[type="text"]  {display:  initial;
+    }
+    .formElement button{display:initial ;
     }
 }
